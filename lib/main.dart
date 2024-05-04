@@ -33,7 +33,7 @@ class MyPage extends StatelessWidget {
         onPressed: () {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-              content: Text('Like a new Snack bar!'),
+              content: Text('Like a new Snack bar!!!!!!!!!'),
               duration: Duration(seconds: 5),
               action: SnackBarAction(
                 label: 'Undo',
