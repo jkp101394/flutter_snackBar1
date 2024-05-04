@@ -59,7 +59,7 @@ class HomeBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: ElevatedButton(
-          child: Text('Go to the second page'),
+          child: Text('두번째 페이지로 넘어왔다 이말이야~'),
           onPressed: () {
             Navigator.push(
               context,
