@@ -33,7 +33,7 @@ class MyPage extends StatelessWidget {
         onPressed: () {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-              content: Text('Like a new Snack bar!'),
+              content: Text('Like a new Snack bar!!!!!!!!!'),
               duration: Duration(seconds: 5),
               action: SnackBarAction(
                 label: 'Undo',
@@ -77,7 +77,7 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Second Page!!!!'),
+        title: Text('두번째 페이지!!!!'),
       ),
       body: Center(
         child: Text(
